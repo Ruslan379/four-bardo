@@ -1,4 +1,4 @@
-import whel from 'images/roulette-wheel.png';
+import whel from 'images/four-bardo-815889_128.png';
 
 import css from './Home.module.css';
 
@@ -16,7 +16,7 @@ export const Home = () => {
                 />
             </div>
             <div className={css.titleText}>
-                HOME Component
+                Γνῶθι σεαυτόν
             </div>
         </div>
     );

@@ -1,4 +1,4 @@
-import whel from 'images/roulette-wheel.png';
+import whel from 'images/four-bardo-815892_512.png';
 
 import css from './Logo.module.css';
 
@@ -19,7 +19,7 @@ export const Logo = () => {
                 />
             </div>
             <div className={css.titleText}>
-                Easy Start in WWW (What? Where? When?) 
+                Nosce te ipsum
             </div>
         </div>
     );

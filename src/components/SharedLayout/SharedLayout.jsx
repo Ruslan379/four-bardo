@@ -20,7 +20,7 @@ export const SharedLayout = () => {
     <div className={css.Container}>
       <Logo />
 
-      <NavLink className={css.navLinkHome} to="/">H O M E</NavLink>
+      <NavLink className={css.navLinkHome} to="/">TEMET NOSCE</NavLink>
 
       <nav className={css.navFlex}>
         <div className={css.navBlock}>
