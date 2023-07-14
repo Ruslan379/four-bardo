@@ -18,8 +18,8 @@ import { Home } from 'components/Home/Home';
 import { NotFound } from "page/NotFound";
 
 import { PsychoMatrix } from 'components/PsychoMatrix/PsychoMatrix';
-import { JS_3_5 } from 'components/JavaScript-Lesson/JS_3-5';
-import { React24 } from 'components/React-Lesson/React24';
+// import { JS_3_5 } from 'components/JavaScript-Lesson/JS_3-5';
+// import { React24 } from 'components/React-Lesson/React24';
 
 
 import css from './App.module.css';
@@ -45,63 +45,63 @@ export const App = () => {
         } >
           <Route path="allmatrices" element={
             <div>
-              <p className={css.titleText}>All Matrices</p>
+              <p className={css.titleText}>All Matrices:</p>
               <PsychoMatrix />
             </div>
           } />
         </Route>
 
-        <Route path="/matrix" element={
+        <Route path="/matrix1" element={
           <>
-            <p className={css.titleTextBase}>ПсихоМатрица</p>
+            <p className={css.titleTextBase}>ПСИХО Матрица:</p>
             <Outlet />
           </>
         } >
           <Route path="psychomatrix" element={
             <div>
-              <p className={css.titleText}>PsychoMatrix</p>
+              <p className={css.titleText}>PSYCHO Matrix:</p>
               <PsychoMatrix />
             </div>
           } />
         </Route>
 
-        <Route path="/javascript" element={
+        <Route path="/matrix2" element={
           <>
-            <p className={css.titleTextBase}>Java Script</p>
+            <p className={css.titleTextBase}>Матрица СУДЬБЫ:</p>
             <Outlet />
           </>
         } >
-          <Route path="module-35" element={
+          <Route path="fate" element={
             <div>
-              <p className={css.titleText}>Java Script (module_3-5)</p>
-              <JS_3_5 />
+              <p className={css.titleText}>Matrix of FATE:</p>
+              {/* <JS_3_5 /> */}
             </div>
           } />
         </Route>
 
-        <Route path="/react" element={
+        <Route path="/matrix3" element={
           <>
-            <p className={css.titleTextBase}>React</p>
+            <p className={css.titleTextBase}>Матрица ИМЕНИ:</p>
             <Outlet />
           </>
         } >
-          <Route path="module-24" element={
+          <Route path="name" element={
             <div>
-              <p className={css.titleText}>React (module_2-4)</p>
-              <React24 />
+              <p className={css.titleText}>NAME matrix:</p>
+              {/* <React24 /> */}
             </div>
           } />
         </Route>
 
-        <Route path="/node" element={
+        <Route path="/soul" element={
           <>
-            <p className={css.titleTextBase}>Node.js</p>
+            <p className={css.titleTextBase}>Старые ДУШИ:</p>
             <Outlet />
           </>
         } >
-          <Route path="module-11" element={
+          <Route path="oldsoul" element={
             <div>
-              <p className={css.titleText}>Node.js (module_1-1)</p>
+              <p className={css.titleText}>Old SOUL:</p>
               {/* <Node11 /> */}
             </div>
           } />
