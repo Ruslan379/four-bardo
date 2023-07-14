@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/four-bardo/static/css/main.8c638a96.css",
-    "main.js": "/four-bardo/static/js/main.4f98676c.js",
+    "main.js": "/four-bardo/static/js/main.2cbdbb59.js",
     "static/media/roulette-wheel.png": "/four-bardo/static/media/roulette-wheel.4474b774ebe43239b1c9.png",
     "static/media/car-alarm-deluxe-2.mp3": "/four-bardo/static/media/car-alarm-deluxe-2.73cb38c864dc8bb038f7.mp3",
     "static/media/button-tonal_gydmp_eu.mp3": "/four-bardo/static/media/button-tonal_gydmp_eu.e825d30cd4c408067f4d.mp3",
     "index.html": "/four-bardo/index.html",
     "main.8c638a96.css.map": "/four-bardo/static/css/main.8c638a96.css.map",
-    "main.4f98676c.js.map": "/four-bardo/static/js/main.4f98676c.js.map"
+    "main.2cbdbb59.js.map": "/four-bardo/static/js/main.2cbdbb59.js.map"
   },
   "entrypoints": [
     "static/css/main.8c638a96.css",
-    "static/js/main.4f98676c.js"
+    "static/js/main.2cbdbb59.js"
   ]
 }
