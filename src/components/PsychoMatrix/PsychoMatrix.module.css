@@ -48,6 +48,7 @@
     border: 2px solid blue;
     border-radius: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #eede90;
 }
 
 .globalForm:focus-within {
