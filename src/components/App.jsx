@@ -15,7 +15,7 @@ import {
 
 import { SharedLayout } from 'components/SharedLayout/SharedLayout';
 import { Home } from 'components/Home/Home';
-import { NotFound } from "page/NotFound";
+import { NotFoundPage } from "page/NotFoundPage/NotFoundPage";
 
 import { PsychoMatrix } from 'components/PsychoMatrix/PsychoMatrix';
 // import { JS_3_5 } from 'components/JavaScript-Lesson/JS_3-5';
@@ -33,7 +33,7 @@ export const App = () => {
 
   return (
     <Routes>
-      <Route path="*" element={<NotFound />} />
+      <Route path="*" element={<NotFoundPage />} />
       <Route path="/" element={<SharedLayout />} >
         <Route index element={<Home />} />
 
