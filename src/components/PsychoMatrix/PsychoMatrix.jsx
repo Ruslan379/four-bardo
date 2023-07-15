@@ -264,7 +264,7 @@ export const PsychoMatrix = () => {
         //! ----------- thirdAddNumber III -----------:
         console.log("Number(dayAsArray[0]):", Number(dayAsArray[0])); //!
         console.log("Number(monthAsArray[0]):", Number(monthAsArray[0])); //!
-        const forThirdAddNumber = Math.abs(forFirstAddNumber - 2 * Number((dayAsArray[0] === "0") ? monthAsArray[0] : dayAsArray[0]));
+        const forThirdAddNumber = Math.abs(forFirstAddNumber - (2 * Number((dayAsArray[0] === "0") ? monthAsArray[0] : dayAsArray[0])));
         console.log("forThirdAddNumber:", forThirdAddNumber); //!
         setThirdAddNumber(forThirdAddNumber);
 
@@ -491,10 +491,10 @@ export const PsychoMatrix = () => {
                     <div className={`${css.divCell} ${css.divCellSize}`}>IV - Глав. качество</div>
                 </div>
                 <div className={css.divLine}>
-                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellWeight}`}>{showComponent1 && firstAddNumber ? firstAddNumber : '-'}</div>
-                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellWeight}`}>{showComponent2 && secondAddNumber ? secondAddNumber : '-'}</div>
-                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellYellow} ${css.divCellWeight}`}>{showComponent3 && thirdAddNumber ? thirdAddNumber : '-'}</div>
-                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellWeight}`}>{showComponent4 && fourthAddNumber ? fourthAddNumber : '-'}</div>
+                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellWeight}`}>{showComponent1 && firstAddNumber >= 0 ? firstAddNumber : '-'}</div>
+                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellWeight}`}>{showComponent2 && secondAddNumber >= 0 ? secondAddNumber : '-'}</div>
+                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellYellow} ${css.divCellWeight}`}>{showComponent3 && thirdAddNumber >= 0 ? thirdAddNumber : '-'}</div>
+                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellWeight}`}>{showComponent4 && fourthAddNumber >= 0 ? fourthAddNumber : '-'}</div>
                 </div>
             </div>
             {/* //! ПсихоМатрица */}
