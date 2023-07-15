@@ -476,9 +476,9 @@ export const PsychoMatrix = () => {
                     <div className={`${css.divCell} ${css.divCellSize}`}>Год</div>
                 </div>
                 <div className={css.divLine}>
-                    <div className={`${css.divCell} ${css.divCellSize}`}>{dateOfBirthObj.day ? dateOfBirthObj.day : '-'}</div>
-                    <div className={`${css.divCell} ${css.divCellSize}`}>{dateOfBirthObj.month ? dateOfBirthObj.month : '-'}</div>
-                    <div className={`${css.divCell} ${css.divCellSize}`}>{dateOfBirthObj.year ? dateOfBirthObj.year : '-'}</div>
+                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellWeight}`}>{dateOfBirthObj.day ? dateOfBirthObj.day : '-'}</div>
+                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellWeight}`}>{dateOfBirthObj.month ? dateOfBirthObj.month : '-'}</div>
+                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellWeight}`}>{dateOfBirthObj.year ? dateOfBirthObj.year : '-'}</div>
                 </div>
             </div>
             {/* //! Доп числа */}
@@ -491,10 +491,10 @@ export const PsychoMatrix = () => {
                     <div className={`${css.divCell} ${css.divCellSize}`}>IV - Глав. качество</div>
                 </div>
                 <div className={css.divLine}>
-                    <div className={`${css.divCell} ${css.divCellSize}`}>{showComponent1 && firstAddNumber ? firstAddNumber : '-'}</div>
-                    <div className={`${css.divCell} ${css.divCellSize}`}>{showComponent2 && secondAddNumber ? secondAddNumber : '-'}</div>
-                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellYellow}`}>{showComponent3 && thirdAddNumber ? thirdAddNumber : '-'}</div>
-                    <div className={`${css.divCell} ${css.divCellSize}`}>{showComponent4 && fourthAddNumber ? fourthAddNumber : '-'}</div>
+                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellWeight}`}>{showComponent1 && firstAddNumber ? firstAddNumber : '-'}</div>
+                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellWeight}`}>{showComponent2 && secondAddNumber ? secondAddNumber : '-'}</div>
+                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellYellow} ${css.divCellWeight}`}>{showComponent3 && thirdAddNumber ? thirdAddNumber : '-'}</div>
+                    <div className={`${css.divCell} ${css.divCellSize} ${css.divCellWeight}`}>{showComponent4 && fourthAddNumber ? fourthAddNumber : '-'}</div>
                 </div>
             </div>
             {/* //! ПсихоМатрица */}
