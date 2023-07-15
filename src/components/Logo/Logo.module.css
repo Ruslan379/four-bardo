@@ -15,17 +15,18 @@
     font-size: 18px;
     font-weight: 600;
 
-    border: 2px solid #ffad7a;
+    border: 2px solid rgb(119, 71, 0);
     border-radius: 20px;
-    
+    /* opacity: 0.7; */
     background-color: #faebe2;
-    box-shadow: 12px 12px 18px rgba(59, 43, 14, 0.23);
+    background-image: url(../../images/BackGround2.jpg);
+    box-shadow: 12px 12px 18px rgba(99, 65, 3, 0.466);
 }
 
 .logoShadowContainer {
     border-radius: 50%;
-    box-shadow: 15px 15px 15px rgba(44, 35, 18, 0.23);
-    outline: 1px solid orange;
+    box-shadow: 15px 15px 15px rgba(99, 65, 3, 0.466);
+    /* outline: 1px solid orange; */
 }
 
 
@@ -54,21 +55,9 @@
 }
 
 .titleText {
-    /* padding-bottom: 20px; */
-    /* text-decoration: overline; */
-    /* text-transform: capitalize; */
-    /* text-align: justify; */
-    /* text-align: left; */
-    /* text-indent: 100px; */
-    /* line-height: 1.5; */
-    /* letter-spacing: inherit; */
-    /* letter-spacing: 4px; */
-    /* word-spacing: 8px; */
-    /* white-space: pre-wrap; */
-
     margin-top: 24px;
 
-    color: #c01d1d;
+    color: #e75500;
     text-shadow: 4px 4px 8px #555555;
     /* text-shadow: 12px 12px 12px #9e4949,
         5px 5px 5px #696969; */
