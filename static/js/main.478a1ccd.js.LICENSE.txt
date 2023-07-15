@@ -170,6 +170,8 @@
 
 //! Создаем объект даты рождения --> dateOfBirthObj
 
+//! Стилизация NavLink
+
 //! Суммируем цифры массива forThirdAddNumberAsArray и записываем в стейт setFourthAddNumber
 
 //! Суммируем цифры массива secondAddNumberAsArray и записываем в стейт secondAddNumber
