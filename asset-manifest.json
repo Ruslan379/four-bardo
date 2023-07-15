@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/four-bardo/static/css/main.15e554ef.css",
-    "main.js": "/four-bardo/static/js/main.d7558715.js",
+    "main.css": "/four-bardo/static/css/main.19b9dc18.css",
+    "main.js": "/four-bardo/static/js/main.0ec6e511.js",
     "static/media/BackGround.jpg": "/four-bardo/static/media/BackGround.7d243b09175cdf1ee802.jpg",
     "static/media/four-bardo-815892_512.png": "/four-bardo/static/media/four-bardo-815892_512.619ff9951cca8b4ff112.png",
     "static/media/BackGround2.jpg": "/four-bardo/static/media/BackGround2.a90f1cfce4e709e214df.jpg",
     "static/media/car-alarm-deluxe-2.mp3": "/four-bardo/static/media/car-alarm-deluxe-2.73cb38c864dc8bb038f7.mp3",
     "static/media/button-tonal_gydmp_eu.mp3": "/four-bardo/static/media/button-tonal_gydmp_eu.e825d30cd4c408067f4d.mp3",
     "index.html": "/four-bardo/index.html",
-    "main.15e554ef.css.map": "/four-bardo/static/css/main.15e554ef.css.map",
-    "main.d7558715.js.map": "/four-bardo/static/js/main.d7558715.js.map"
+    "main.19b9dc18.css.map": "/four-bardo/static/css/main.19b9dc18.css.map",
+    "main.0ec6e511.js.map": "/four-bardo/static/js/main.0ec6e511.js.map"
   },
   "entrypoints": [
-    "static/css/main.15e554ef.css",
-    "static/js/main.d7558715.js"
+    "static/css/main.19b9dc18.css",
+    "static/js/main.0ec6e511.js"
   ]
 }
