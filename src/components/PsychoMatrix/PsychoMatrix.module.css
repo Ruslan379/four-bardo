@@ -44,22 +44,23 @@
     height: 150px;
     justify-content: center;
     align-items: flex-end;
-    /* outline: 2px solid tomato; */
-    border: 2px solid blue;
-    border-radius: 10px;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: #eede90;
+    /* outline: 2px solid tomato; */
+    border: 2px solid rgb(119, 71, 0);
+    border-radius: 10px;
+    
+    background-color: #e7c780;
 }
 
 .globalForm:focus-within {
-    border-color: tomato;
+    border-color: rgb(255, 232, 129);
     border-radius: 10px;
 }
 
 .labelForm {
     margin-right: 10px;
     font-weight: 700;
-    color: rgb(0, 114, 19);
+    color: rgb(114, 65, 0);
 }
 
 .inputForm {
@@ -67,6 +68,9 @@
     margin-left: 10px;
     font-weight: 700;
     color: rgb(146, 95, 0);
+    /* opacity: 0.5; */
+    /* background-color: inherit; */
+    background-image: url(../../images/BackGround2.jpg);
 }
 
 /* .inputForm:required {
@@ -74,18 +78,18 @@
 } */
 
 .inputForm:placeholder-shown {
-    border-color: blue;
+    border-color: rgb(119, 71, 0);
     /* color: #ff0318; */
 }
 
 .inputForm::placeholder {
     /* border: 2px solid; */
     /* border-color: green; */
-    color: #cd03ff;
+    color: #bd6500;
 }
 
 .inputForm:in-range {
-    border-color: #4de051;
+    border-color: #e0834d;
 }
 
 .inputForm:out-of-range {
@@ -103,19 +107,25 @@
 }
 
 .buttonSubmit:enabled {
-    background-color: rgb(0, 255, 13);
-    color: #000000;
+    background-color: rgb(0, 104, 5);
+    color: #ccffcb;
 }
 
 .buttonSubmit:disabled {
-    background-color: rgb(255, 0, 0);
-    color: #ffffff;
+    background-color: rgb(114, 0, 0);
+    color: #ffc5c5;
+}
+
+.sectionTitle {
+    margin-top: 60px;
+    margin-bottom: 20px;
+
 }
 
 .divLine {
     display: flex;
-    /* margin-top: 20px; */
-    /* border: 1px solid blue; */
+    margin-bottom: -2px;
+    border: 1px solid rgb(119, 71, 0);
 }
 
 .emptyContainer {
@@ -140,15 +150,19 @@
     padding: 10px;
     /* align-items: flex-end; */
     /* outline: 2px solid tomato; */
-    border: 1px solid blue;
+    border: 1px solid rgb(119, 71, 0);
     /* border-radius: 10px; */
     font-size: 2rem;
     /* font-family: Georgia, 'Times New Roman', Times, serif; */
 }
 .divCellYellow {
-    background-color: #ffffcb
+    opacity: 0.5;
+    color: #b80808;
+    background-color: #ffffcb;
+
 }
 .divCellGray {
+    opacity: 0.5;
     background-color: #dadada;
 }
 .divCellSize {
@@ -156,6 +170,7 @@
     font-size: 1.2rem;
 }
 .divCellNull {
+    opacity: 0.5;
     background-color: #ffcdcd;
 }
 .divCellNumber {
@@ -414,7 +429,10 @@
     font-size: 2rem;
         font-weight: 700;
     color: green;
-    background-color: white;
+    /* background-color: white; */
+    background-image: url(../../images/BackGround2.jpg);
+    background-repeat: no-repeat;
+
     outline: 1px solid green;
 }
 
@@ -431,6 +449,7 @@
     font-size: 2rem;
         font-weight: 700;
     color: tomato;
-    background-color: white;
+    /* background-color: white; */
+    background-image: url(../../images/BackGround2.jpg);
     outline: 1px solid tomato;
 }

@@ -39,7 +39,7 @@ export const App = () => {
 
         <Route path="/all" element={
           <div>
-            <p className={css.titleTextBase}>ВСЕ РАСЧЕТЫ:</p>
+            {/* <p className={css.titleTextBase}>ВСЕ РАСЧЕТЫ:</p> */}
             <Outlet />
           </div>
         } >

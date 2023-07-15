@@ -5,7 +5,7 @@
 
 .Container {
     width: 1200px;
-    height: 200vh;
+    height: 400vh;
 
     display: flex;
     flex-direction: column;
@@ -13,6 +13,7 @@
     align-items: center;
     /* font-size: 40px; */
     color: #010101;
+    margin: auto auto;
 
     padding: 20px;
     /* margin-bottom: 20px; */
@@ -21,7 +22,7 @@
     /* border-radius: 20px; */
     
     /* background-color: #faebe2; */
-    background-image: url(../../images/BackGround1.jpg);
+    background-image: url(../../images/BackGround.jpg);
     background-repeat: no-repeat;
     /* background-size: cover; */
     /* background-size: contain; */

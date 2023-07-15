@@ -56,7 +56,10 @@
 
 
 .titleText {
-    padding-bottom: 20px;
+    /* padding-bottom: 20px; */
+    /* padding-bottom: 445px; */
+    margin-top: 20px;
+    margin-bottom: 515px;
     text-decoration: overline;
     text-transform: capitalize;
     /* text-align: justify; */
