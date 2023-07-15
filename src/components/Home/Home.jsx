@@ -7,6 +7,9 @@ import css from './Home.module.css';
 export const Home = () => {
     return (
         <div className={css.logoHomeContainer}>
+            <div className={css.titleText}>
+                Γνῶθι σεαυτόν
+            </div>
             <div className={css.logoHomeShadowContainer}>
                 <img
                     className={css.logoHomeImage}
@@ -15,9 +18,7 @@ export const Home = () => {
                     width="100"
                 />
             </div>
-            <div className={css.titleText}>
-                Γνῶθι σεαυτόν
-            </div>
+
         </div>
     );
 };

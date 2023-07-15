@@ -37,9 +37,9 @@ export const App = () => {
       <Route path="/" element={<SharedLayout />} >
         <Route index element={<Home />} />
 
-        <Route path="/all" element={
+        {/* <Route path="/all" element={
           <div>
-            {/* <p className={css.titleTextBase}>ВСЕ РАСЧЕТЫ:</p> */}
+            <p className={css.titleTextBase}>ВСЕ РАСЧЕТЫ:</p>
             <Outlet />
           </div>
         } >
@@ -49,6 +49,14 @@ export const App = () => {
               <PsychoMatrix />
             </div>
           } />
+        </Route> */}
+
+        <Route path="/all" element={
+          <div>
+            <p className={css.titleText}>All Matrices:</p>
+            <PsychoMatrix />
+          </div>
+        } >
         </Route>
 
         <Route path="/matrix1" element={
