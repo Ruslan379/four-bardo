@@ -353,14 +353,22 @@ export const PsychoMatrix = () => {
     //!    Преобразование всех элементов массива (строк) в ЧИСЛО и запись в новый массив convertArrToNumber:
     //!    СУММИРОВАНИЕ всех элементов массива:
     const convertNumberToSum22 = (num = 0,) => {
-        console.log("num", num); //!
+        console.log("num:", num); //!
         let convertToNumberAndSum = Number(num);
+        console.log("ДО_convertToNumberAndSum:", convertToNumberAndSum); //!
         if (convertToNumberAndSum > 22) {
-            const arrString = num.toString().split("");
+            const arrString = convertToNumberAndSum.toString().split("");
             const convertArrToNumber = arrString.map(element => Number(element));
             convertToNumberAndSum = convertArrToNumber.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+            console.log("IF1-convertToNumberAndSum:", convertToNumberAndSum); //!
         }
-        console.log("convertToNumberAndSum", convertToNumberAndSum); //!
+        if (convertToNumberAndSum > 22) {
+            const arrString = convertToNumberAndSum.toString().split("");
+            const convertArrToNumber = arrString.map(element => Number(element));
+            convertToNumberAndSum = convertArrToNumber.reduce((accumulator, currentValue) => accumulator + currentValue, 0);
+            console.log("IF2-convertToNumberAndSum:", convertToNumberAndSum); //!
+        }
+        console.log("convertToNumberAndSum:", convertToNumberAndSum); //!
         return convertToNumberAndSum;
     };
     //*__________________ ВСПОМОГАТЕЛЬНЫЕ ФУНКЦИИ Матрицы Судьбы __________________
@@ -371,10 +379,10 @@ export const PsychoMatrix = () => {
     const personalNumber3 = convertNumberToSum22(dateOfBirthObj.year);
     const personalNumber4 = convertNumberToSum22(personalNumber1 + personalNumber2 + personalNumber3);
 
-    console.log("personalNumber1", personalNumber1); //!
-    console.log("personalNumber2", personalNumber2); //!
-    console.log("personalNumber3", personalNumber3); //!
-    console.log("personalNumber4", personalNumber4); //!
+    console.log("personalNumber1:", personalNumber1); //!
+    console.log("personalNumber2:", personalNumber2); //!
+    console.log("personalNumber3:", personalNumber3); //!
+    console.log("personalNumber4:", personalNumber4); //!
 
     //! Ancestral Karma
     const ancestralNumber1 = convertNumberToSum22(personalNumber1 + personalNumber2);
@@ -382,17 +390,17 @@ export const PsychoMatrix = () => {
     const ancestralNumber3 = convertNumberToSum22(personalNumber3 + personalNumber4);
     const ancestralNumber4 = convertNumberToSum22(personalNumber4 + personalNumber1);
 
-    console.log("ancestralNumber1", ancestralNumber1); //!
-    console.log("ancestralNumber2", ancestralNumber2); //!
-    console.log("ancestralNumber3", ancestralNumber3); //!
-    console.log("ancestralNumber4", ancestralNumber4); //!
+    console.log("ancestralNumber1:", ancestralNumber1); //!
+    console.log("ancestralNumber2:", ancestralNumber2); //!
+    console.log("ancestralNumber3:", ancestralNumber3); //!
+    console.log("ancestralNumber4:", ancestralNumber4); //!
 
     //! Central Karma
     const centralPersonalNumber = convertNumberToSum22(personalNumber1 + personalNumber2 + personalNumber3 + personalNumber4);
     const centralAncestralNumber = convertNumberToSum22(ancestralNumber1 + ancestralNumber2 + ancestralNumber3 + ancestralNumber4);
 
-    console.log("centralPersonalNumber", centralPersonalNumber); //!
-    console.log("centralAncestralNumber", centralAncestralNumber); //!
+    console.log("centralPersonalNumber:", centralPersonalNumber); //!
+    console.log("centralAncestralNumber:", centralAncestralNumber); //!
 
 
     return (
