@@ -39,22 +39,22 @@ export const SharedLayout = () => {
 
         <div className={css.navBlock}>
           <StyledLink className={css.navLink} to="/matrix1">ПСИХО Матрица</StyledLink>
-          <NavLink to="/matrix1/psychomatrix">PSYCHO Matrix</NavLink>
+          {/* <NavLink to="/matrix1/psychomatrix">PSYCHO Matrix</NavLink> */}
         </div>
 
         <div className={css.navBlock} >
           <StyledLink className={css.navLink} to="/matrix2">Матрица СУДЬБЫ</StyledLink>
-          <NavLink to="/matrix2/fate">Matrix of FATE</NavLink>
+          {/* <NavLink to="/matrix2/fate">Matrix of FATE</NavLink> */}
         </div >
 
         <div className={css.navBlock}>
           <StyledLink className={css.navLink} to="/matrix3">Матрица ИМЕНИ</StyledLink>
-          <NavLink to="/matrix3/name">NAME matrix</NavLink>
+          {/* <NavLink to="/matrix3/name">NAME matrix</NavLink> */}
         </div>
 
         <div className={css.navBlock}>
           <StyledLink className={css.navLink} to="/soul">Старые ДУШИ</StyledLink>
-          <NavLink to="/soul/oldsoul">Old SOUL</NavLink>
+          {/* <NavLink to="/soul/oldsoul">Old SOUL</NavLink> */}
         </div>
       </nav >
       <Outlet />

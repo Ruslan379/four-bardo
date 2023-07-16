@@ -53,7 +53,7 @@ export const App = () => {
 
         <Route path="/all" element={
           <div>
-            <p className={css.titleText}>All Matrices:</p>
+            <p className={css.titleTextBase}>ВСЕ РАСЧЕТЫ:</p>
             <PsychoMatrix />
           </div>
         } >
@@ -65,12 +65,12 @@ export const App = () => {
             <Outlet />
           </>
         } >
-          <Route path="psychomatrix" element={
+          {/* <Route path="psychomatrix" element={
             <div>
               <p className={css.titleText}>PSYCHO Matrix:</p>
               <PsychoMatrix />
             </div>
-          } />
+          } /> */}
         </Route>
 
         <Route path="/matrix2" element={
@@ -79,12 +79,12 @@ export const App = () => {
             <Outlet />
           </>
         } >
-          <Route path="fate" element={
+          {/* <Route path="fate" element={
             <div>
               <p className={css.titleText}>Matrix of FATE:</p>
-              {/* <JS_3_5 /> */}
+              <JS_3_5 />
             </div>
-          } />
+          } /> */}
         </Route>
 
         <Route path="/matrix3" element={
@@ -93,12 +93,12 @@ export const App = () => {
             <Outlet />
           </>
         } >
-          <Route path="name" element={
+          {/* <Route path="name" element={
             <div>
               <p className={css.titleText}>NAME matrix:</p>
-              {/* <React24 /> */}
+              <React24 />
             </div>
-          } />
+          } /> */}
         </Route>
 
         <Route path="/soul" element={
